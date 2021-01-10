@@ -1,0 +1,16 @@
+post
+http://localhost:9002/users/
+{
+    "firstName": "Shabbir",
+    "lastName": "Dawoodi",
+    "email": "Shabbir@gmail.com",
+    "departmentId": "1"
+}
+
+post
+http://localhost:9001/departments/
+{
+   "departmentName": "IT",
+   "departmentAddress": "34d Cross, First Street",
+   "departmentCode": "IT-006"
+}
